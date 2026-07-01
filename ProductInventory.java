@@ -90,8 +90,6 @@ public class ProductInventory {
         p.applyDiscount(discount);
 
         System.out.println("\nProduct Details");
-        System.out.println("Product ID: " + p.getProductId());
-        System.out.println("Product Name: " + p.getProductName());
         System.out.println("Price after Discount: " + p.getPrice());
         System.out.println("Stock Quantity: " + p.getStockQuantity());
 
